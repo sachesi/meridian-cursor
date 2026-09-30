@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.75" stdDeviation="0.7" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <image href="default.svg" width="24" height="24"/>
+  <g filter="url(#shadow)">
+    <circle cx="18" cy="18" r="5" fill="#fff"/>
+    <circle cx="18" cy="18" r="4" fill="#1b1c20"/>
+    <g transform="rotate(0 18 18)" fill="#fff">
+      <circle cx="18.00" cy="16.00" r="1.25"/>
+      <circle cx="16.27" cy="19.00" r="0.95"/>
+      <circle cx="19.73" cy="19.00" r="0.65"/>
+    </g>
+  </g>
+</svg>

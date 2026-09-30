@@ -1,0 +1,147 @@
+# One table per svg/<name>.svg. Hotspots are in SVG canvas units (0-24).
+# Animated cursors rotate the element carrying transform="rotate(0 cx cy)".
+
+[default]
+hotspot = [5, 3]
+aliases = ["left_ptr", "arrow", "top_left_arrow"]
+
+[pointer]
+hotspot = [8, 3]
+aliases = ["hand1", "hand2", "pointing_hand", "9d800788f1b08800ae810202380a0822", "e29285e634086352946a0e7090d73106"]
+
+[text]
+hotspot = [12, 12]
+aliases = ["xterm", "ibeam"]
+
+[vertical-text]
+hotspot = [12, 12]
+
+[crosshair]
+hotspot = [12, 12]
+aliases = ["cross", "tcross", "cross_reverse", "diamond_cross"]
+
+[cell]
+hotspot = [12, 12]
+aliases = ["plus"]
+
+[move]
+hotspot = [12, 12]
+aliases = ["all-scroll", "fleur", "size_all", "4498f0e0c1937ffe01fd06f973665830", "9081237383d90e509aa00f00170e968f"]
+
+[grab]
+hotspot = [12, 11]
+aliases = ["openhand", "5aca4d189052212118709018842178c0"]
+
+[grabbing]
+hotspot = [12, 11]
+aliases = ["closedhand", "dnd-move", "dnd-none", "fcf21c00b30f7e3f83fe0dfd12e71cff", "208530c400c041818281048008011002"]
+
+[not-allowed]
+hotspot = [12, 12]
+aliases = ["forbidden", "crossed_circle", "circle", "X_cursor", "pirate", "03b6e0fcb3499374a867c041f52298f0"]
+
+[help]
+hotspot = [5, 3]
+aliases = ["question_arrow", "whats_this", "left_ptr_help", "dnd-ask", "d9ce0ab605698f320427677b458ad60b", "5c6cd98b3f3ebcb1f9c7f1c204630408"]
+
+[context-menu]
+hotspot = [5, 3]
+
+[copy]
+hotspot = [5, 3]
+aliases = ["dnd-copy", "1081e37283d90000800003c07f3ef6bf", "6407b0e94181790501fd1e167b474872", "b66166c04f8c3109214a4fbd64a50fc8"]
+
+[alias]
+hotspot = [5, 3]
+aliases = ["link", "dnd-link", "3085a0e285430894940527032f8b26df", "640fb0e74195791501fd1ed57b41487f", "a2a266d0498c3104214a47bd64ab0fc8"]
+
+[progress]
+hotspot = [5, 3]
+frames = 12
+delay = 60
+aliases = ["left_ptr_watch", "half-busy", "00000000000000020006000e7e9ffc3f", "08e8e1c95fe2fc01f976f1e063a24ccd", "3ecb610c1bf2410f44200f48c40d3599"]
+
+[wait]
+hotspot = [12, 12]
+frames = 12
+delay = 60
+aliases = ["watch", "clock"]
+
+[ew-resize]
+hotspot = [12, 12]
+aliases = ["sb_h_double_arrow", "h_double_arrow", "size_hor", "028006030e0e7ebffc7f7070c0600140"]
+
+[ns-resize]
+hotspot = [12, 12]
+aliases = ["sb_v_double_arrow", "v_double_arrow", "size_ver", "00008160000006810000408080010102"]
+
+[nwse-resize]
+hotspot = [12, 12]
+aliases = ["size_fdiag", "c7088f0f3e6c8088236ef8e1e3e70000"]
+
+[nesw-resize]
+hotspot = [12, 12]
+aliases = ["size_bdiag", "fcf1c3c7cd4491d801f1e1c78f100000"]
+
+[col-resize]
+hotspot = [12, 12]
+aliases = ["split_h", "14fef782d02440884392942c11205230", "043a9f68147c53184671403ffa811cc5"]
+
+[row-resize]
+hotspot = [12, 12]
+aliases = ["split_v", "2870a09082c103050810ffdffffe0204", "c07385c7190e701020ff7ffffd08103c"]
+
+[zoom-in]
+hotspot = [10, 10]
+aliases = ["f41c0e382c94c0958e07017e42b00462"]
+
+[zoom-out]
+hotspot = [10, 10]
+aliases = ["f41c0e382c97c0938e07017e42800402"]
+
+[no-drop]
+hotspot = [5, 3]
+aliases = ["dnd-no-drop"]
+
+[e-resize]
+hotspot = [12, 12]
+aliases = ["right_side"]
+
+[w-resize]
+hotspot = [12, 12]
+aliases = ["left_side"]
+
+[n-resize]
+hotspot = [12, 12]
+aliases = ["top_side"]
+
+[s-resize]
+hotspot = [12, 12]
+aliases = ["bottom_side"]
+
+[ne-resize]
+hotspot = [12, 12]
+aliases = ["top_right_corner"]
+
+[nw-resize]
+hotspot = [12, 12]
+aliases = ["top_left_corner"]
+
+[se-resize]
+hotspot = [12, 12]
+aliases = ["bottom_right_corner"]
+
+[sw-resize]
+hotspot = [12, 12]
+aliases = ["bottom_left_corner"]
+
+[up-arrow]
+hotspot = [12, 5]
+aliases = ["center_ptr", "sb_up_arrow"]
+
+[pencil]
+hotspot = [7, 17]
+aliases = ["draft"]
+
+[color-picker]
+hotspot = [7, 17]

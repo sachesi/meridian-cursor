@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.75" stdDeviation="0.7" flood-opacity="0.35"/>
+    </filter>
+    <g id="shape">
+      <rect x="7" y="8" width="2" height="7" rx="1"/>
+      <rect x="10" y="7" width="2" height="7" rx="1"/>
+      <rect x="13" y="7.5" width="2" height="7" rx="1"/>
+      <rect x="16" y="8.5" width="2" height="7" rx="1"/>
+      <rect x="7" y="10" width="11" height="9.5" rx="4.5"/>
+      <rect x="5.625" y="11.50" width="3" height="7.26" rx="1.5" transform="rotate(-40.2 7.125 15.125)"/>
+    </g>
+  </defs>
+  <g filter="url(#shadow)" stroke-linejoin="round" stroke-linecap="round">
+    <use href="#shape" fill="#fff" stroke="#fff" stroke-width="2"/>
+    <use href="#shape" fill="#1b1c20"/>
+    <path d="M9.5 10V12.5M12.5 10V12.5M15.5 10V12.5" fill="none" stroke="#fff"/>
+  </g>
+</svg>
